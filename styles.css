@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.student-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 50%;
+  background-color: yellow;
+}
+
+.student-table th,
+.student-table td {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.student-table th {
+  border: 2px solid black;
+  font-size: 18px;
+}
+
+.student-table td {
+  border: 1px solid black;
+  font-size: 16px;
+}
